@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "User shops various items and pays sales tax",
+    "children" : [ {
+      "name" : "As a sales representative, I want to calculate total amount that the customer pays when he/she only buys material exempted from tax",
+      "uid" : "2200375941c734b3",
+      "parentUid" : "4b94c1414b4d421edf7cb1fc67e67717",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619022308045,
+        "stop" : 1619022308076,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "As a sales representative, I want to calculate total amount that the customer pays when he/she buys all kinds of material and tax is levied",
+      "uid" : "c3baef4391bccb0e",
+      "parentUid" : "4b94c1414b4d421edf7cb1fc67e67717",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619022308158,
+        "stop" : 1619022308164,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4b94c1414b4d421edf7cb1fc67e67717"
+  } ],
+  "name" : "suites"
+}
