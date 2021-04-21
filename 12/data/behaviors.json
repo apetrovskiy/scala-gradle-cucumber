@@ -1,0 +1,43 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "User shops various items and pays sales tax",
+    "children" : [ {
+      "name" : "As a sales representative, I want to calculate total amount that the customer pays when he/she only buys material exempted from tax",
+      "children" : [ {
+        "name" : "As a sales representative, I want to calculate total amount that the customer pays when he/she only buys material exempted from tax",
+        "uid" : "f9432026730d7e80",
+        "parentUid" : "8d242731515e75fa42de788c0229d21f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619030238490,
+          "stop" : 1619030238531,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d242731515e75fa42de788c0229d21f"
+    }, {
+      "name" : "As a sales representative, I want to calculate total amount that the customer pays when he/she buys all kinds of material and tax is levied",
+      "children" : [ {
+        "name" : "As a sales representative, I want to calculate total amount that the customer pays when he/she buys all kinds of material and tax is levied",
+        "uid" : "1a01ad640e54290f",
+        "parentUid" : "c84f7ea455ad0e8f0041186be9c6e721",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619030238632,
+          "stop" : 1619030238639,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c84f7ea455ad0e8f0041186be9c6e721"
+    } ],
+    "uid" : "9e4dbed872c5722c09beb23f132ccddc"
+  } ],
+  "name" : "behaviors"
+}

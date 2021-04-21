@@ -1,0 +1,21 @@
+[ {
+  "uid" : "f9432026730d7e80",
+  "name" : "As a sales representative, I want to calculate total amount that the customer pays when he/she only buys material exempted from tax",
+  "time" : {
+    "start" : 1619030238490,
+    "stop" : 1619030238531,
+    "duration" : 41
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a01ad640e54290f",
+  "name" : "As a sales representative, I want to calculate total amount that the customer pays when he/she buys all kinds of material and tax is levied",
+  "time" : {
+    "start" : 1619030238632,
+    "stop" : 1619030238639,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
