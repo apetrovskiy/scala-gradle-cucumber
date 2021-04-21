@@ -6,21 +6,31 @@ apply plugin: 'scala'
 
 sourceCompatibility = 1.8
 
+ext {
+    versions = [
+            scala   : "2.13.5",
+            cucumber: "6.10.3",
+            junit   : "4.13.2"
+    ]
+}
+
 repositories {
     mavenCentral()
 }
 
 configurations {
     cucumberRuntime {
-        extendsFrom testRuntime
+        extendsFrom testImplementation
     }
 }
 
 dependencies {
-    compile     'org.scala-lang:scala-library:2.11.8'
-    compile     'info.cukes:cucumber-scala_2.11:1.2.5'
-    testCompile 'junit:junit:4.12'
-    testCompile 'info.cukes:cucumber-junit:1.2.5'
+    implementation("org.scala-lang:scala-library:${versions.scala}")
+    implementation("io.cucumber:cucumber-scala_2.13:${versions.cucumber}")
+    implementation("io.cucumber:cucumber-core:${versions.cucumber}")
+    testImplementation("junit:junit:${versions.junit}")
+    testImplementation("io.cucumber:cucumber-junit:${versions.cucumber}")
+
 }
 
 task "store-runner"(type: JavaExec) {
