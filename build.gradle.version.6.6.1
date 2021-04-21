@@ -8,13 +8,14 @@ group '1.0'
 version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
-var versions = [
-    scala         : "2.13.5",
-    cucumber      : "6.10.3",
-    junit         : "4.13.2",
-    allure        : "2.13.9",
-    java          : "16"
-]
+ext{ 
+    versions = [
+        scala         : "2.13.5",
+        cucumber      : "6.10.3",
+        junit         : "4.13.2",
+        allure        : "2.13.9"
+    ]   
+}
 
 repositories {
     mavenCentral()
@@ -23,9 +24,6 @@ repositories {
 configurations {
     cucumberRuntime {
         extendsFrom testImplementation
-    }
-    testCompile {
-        extendsFrom implementation
     }
 }
 
@@ -37,6 +35,7 @@ dependencies {
     testImplementation("io.cucumber:cucumber-junit:${versions.cucumber}")
     testImplementation("io.qameta.allure:allure-java-commons:${versions.allure}")
     implementation("io.qameta.allure:allure-cucumber6-jvm:${versions.allure}")
+    testImplementation("io.qameta.allure:allure-junit4:${versions.allure}")
 }
 
 task "store-runner"(type: JavaExec) {
@@ -52,7 +51,6 @@ allure {
     autoconfigure = true
     aspectjweaver = true
     version = versions.allure
-    allureJavaVersion = versions.java
 
     clean = true
 
