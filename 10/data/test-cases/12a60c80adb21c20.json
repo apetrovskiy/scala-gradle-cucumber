@@ -1,0 +1,215 @@
+{
+  "uid" : "12a60c80adb21c20",
+  "name" : "As a sales representative, I want to calculate total amount that the customer pays when he/she only buys material exempted from tax",
+  "fullName" : "User shops various items and pays sales tax: As a sales representative, I want to calculate total amount that the customer pays when he/she only buys material exempted from tax",
+  "historyId" : "93b32184e4f12029362f8761756cb735",
+  "time" : {
+    "start" : 1619022386290,
+    "stop" : 1619022386333,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "io.cucumber.scala.GlueAdaptor.$anonfun$loadRegistry$4(GlueAdaptor.scala:27)",
+    "time" : {
+      "start" : 1619022386293,
+      "stop" : 1619022386298,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given  a user is registered with the store",
+      "time" : {
+        "start" : 1619022386305,
+        "stop" : 1619022386316,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  the user buys the book of 150 rupees",
+      "time" : {
+        "start" : 1619022386318,
+        "stop" : 1619022386324,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  the user buys another book of 200 rupees",
+      "time" : {
+        "start" : 1619022386324,
+        "stop" : 1619022386326,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  the user buys the food item of 150 rupees",
+      "time" : {
+        "start" : 1619022386326,
+        "stop" : 1619022386327,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  the user asks for a bill",
+      "time" : {
+        "start" : 1619022386327,
+        "stop" : 1619022386329,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  the total bill user needs to pay is 500 rupees",
+      "time" : {
+        "start" : 1619022386329,
+        "stop" : 1619022386331,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az278-832"
+  }, {
+    "name" : "thread",
+    "value" : "3301@fv-az278-832.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "User shops various items and pays sales tax"
+  }, {
+    "name" : "story",
+    "value" : "As a sales representative, I want to calculate total amount that the customer pays when he/she only buys material exempted from tax"
+  }, {
+    "name" : "suite",
+    "value" : "User shops various items and pays sales tax"
+  }, {
+    "name" : "testClass",
+    "value" : "As a sales representative, I want to calculate total amount that the customer pays when he/she only buys material exempted from tax"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/scala-gradle-cucumber/scala-gradle-cucumber/src/test/resources/shopping.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.shopping_feature.User shops various items and pays sales tax"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "2200375941c734b3",
+        "reportUrl" : "https://apetrovskiy.github.io/scala-gradle-cucumber/9//#testresult/2200375941c734b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619022308045,
+          "stop" : 1619022308076,
+          "duration" : 31
+        }
+      }, {
+        "uid" : "91c19d021afb9da4",
+        "reportUrl" : "https://apetrovskiy.github.io/scala-gradle-cucumber/7//#testresult/91c19d021afb9da4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619022062097,
+          "stop" : 1619022062139,
+          "duration" : 42
+        }
+      }, {
+        "uid" : "5ffea4c3580e2fb6",
+        "reportUrl" : "https://apetrovskiy.github.io/scala-gradle-cucumber/6//#testresult/5ffea4c3580e2fb6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619021989879,
+          "stop" : 1619021989919,
+          "duration" : 40
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "12a60c80adb21c20.json",
+  "parameterValues" : [ ]
+}

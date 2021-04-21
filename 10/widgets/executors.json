@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://apetrovskiy.github.io/scala-gradle-cucumber",
+  "buildOrder" : 10,
+  "buildName" : "GitHub Actions Run #771335920",
+  "buildUrl" : "https://github.com/apetrovskiy/scala-gradle-cucumber/actions/runs/771335920",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://apetrovskiy.github.io/scala-gradle-cucumber/10/"
+} ]
