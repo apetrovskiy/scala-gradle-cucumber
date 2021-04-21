@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "src.test.resources.shopping_feature.User shops various items and pays sales tax",
+    "children" : [ {
+      "name" : "As a sales representative, I want to calculate total amount that the customer pays when he/she only buys material exempted from tax",
+      "uid" : "fce347aab67b7a45",
+      "parentUid" : "0daee0474a6475b7b52b204b5f15edc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619029928612,
+        "stop" : 1619029928650,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "As a sales representative, I want to calculate total amount that the customer pays when he/she buys all kinds of material and tax is levied",
+      "uid" : "c8e36f5a6e578439",
+      "parentUid" : "0daee0474a6475b7b52b204b5f15edc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619029928737,
+        "stop" : 1619029928743,
+        "duration" : 6
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src.test.resources.shopping_feature.User shops various items and pays sales tax"
+  } ],
+  "name" : "packages"
+}

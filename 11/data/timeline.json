@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az182-979",
+    "children" : [ {
+      "name" : "3220@fv-az182-979.main(1)",
+      "children" : [ {
+        "name" : "As a sales representative, I want to calculate total amount that the customer pays when he/she buys all kinds of material and tax is levied",
+        "uid" : "c8e36f5a6e578439",
+        "parentUid" : "883978c7271705b952e4034b2326035a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619029928737,
+          "stop" : 1619029928743,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a sales representative, I want to calculate total amount that the customer pays when he/she only buys material exempted from tax",
+        "uid" : "fce347aab67b7a45",
+        "parentUid" : "883978c7271705b952e4034b2326035a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619029928612,
+          "stop" : 1619029928650,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "883978c7271705b952e4034b2326035a"
+    } ],
+    "uid" : "3ae46719124f7ba30856a12e63cb7aff"
+  } ],
+  "name" : "timeline"
+}
