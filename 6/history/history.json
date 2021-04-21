@@ -1,0 +1,42 @@
+{
+  "ed431ed2aff2067b668bcccdefe54d9e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e2839a002c66d2f",
+      "reportUrl" : "https://apetrovskiy.github.io/scala-gradle-cucumber/6//#testresult/2e2839a002c66d2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619021990046,
+        "stop" : 1619021990054,
+        "duration" : 8
+      }
+    } ]
+  },
+  "93b32184e4f12029362f8761756cb735" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ffea4c3580e2fb6",
+      "reportUrl" : "https://apetrovskiy.github.io/scala-gradle-cucumber/6//#testresult/5ffea4c3580e2fb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619021989879,
+        "stop" : 1619021989919,
+        "duration" : 40
+      }
+    } ]
+  }
+}

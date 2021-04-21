@@ -1,0 +1,3 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","User shops various items and pays sales tax","As a sales representative, I want to calculate total amount that the customer pays when he/she buys all kinds of material and tax is levied","0","0","1","0","0"
+"","User shops various items and pays sales tax","As a sales representative, I want to calculate total amount that the customer pays when he/she only buys material exempted from tax","0","0","1","0","0"

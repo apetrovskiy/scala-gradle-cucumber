@@ -1,0 +1,9 @@
+[ {
+  "buildOrder" : 6,
+  "reportUrl" : "https://apetrovskiy.github.io/scala-gradle-cucumber/6/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 2,
+    "retry" : 0
+  }
+} ]
