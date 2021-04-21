@@ -1,6 +1,7 @@
 package com.knoldus
 
 import io.cucumber.scala.{EN, ScalaDsl, Scenario}
+import io.qameta.allure.Allure
 
 class ShoppingSteps extends ScalaDsl with EN {
 
