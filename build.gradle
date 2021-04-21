@@ -1,10 +1,21 @@
+plugins {
+    id 'java'
+    id 'scala'
+    id 'io.qameta.allure' version '2.8.1'
+}
+
 group '1.0'
 version '1.0-SNAPSHOT'
-
-apply plugin: 'java'
-apply plugin: 'scala'
-
 sourceCompatibility = 1.8
+
+var versions = [
+    scala         : "2.13.5",
+    cucumber      : "6.10.3",
+    junit         : "4.13.2",
+    allure        : "2.13.9",
+    java          : "16",
+    allurecucumber: '2.13.9'
+]
 
 repositories {
     mavenCentral()
@@ -12,19 +23,44 @@ repositories {
 
 configurations {
     cucumberRuntime {
-        extendsFrom testRuntime
+        extendsFrom testImplementation
+    }
+    testCompile {
+        extendsFrom implementation
     }
 }
 
 dependencies {
-    compile     'org.scala-lang:scala-library:2.11.8'
-    compile     'info.cukes:cucumber-scala_2.11:1.2.5'
-    testCompile 'junit:junit:4.12'
-    testCompile 'info.cukes:cucumber-junit:1.2.5'
+    implementation("org.scala-lang:scala-library:${versions.scala}")
+    implementation("io.cucumber:cucumber-scala_2.13:${versions.cucumber}")
+    implementation("io.cucumber:cucumber-core:${versions.cucumber}")
+    testImplementation("junit:junit:${versions.junit}")
+    testImplementation("io.cucumber:cucumber-junit:${versions.cucumber}")
+    testImplementation("io.qameta.allure:allure-java-commons:${versions.allure}")
+    implementation("io.qameta.allure:allure-cucumber6-jvm:${versions.allurecucumber}")
 }
 
 task "store-runner"(type: JavaExec) {
+    systemProperty("allure.results.directory", "allure-results")
     main = "cucumber.api.cli.Main"
     classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
-    args = ['--plugin', 'pretty', '--glue', 'com.knoldus', 'src/test/resources']
+    args = ['--plugin', 'pretty',
+            '--plugin', 'io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm',
+            '--glue', 'com.knoldus', 'src/test/resources']
+}
+
+allure {
+    autoconfigure = true
+    aspectjweaver = true
+    version = versions.allure
+    allureJavaVersion = versions.java
+
+    clean = true
+
+    resultsDir = file("../../allure-results")
+    reportDir = file("../../allure-reports")
+
+    useJUnit5 {
+        version = versions.allure
+    }
 }
